@@ -36,6 +36,7 @@ Key dependencies:
 
 - `langchain`
 - `langchain-community`
+- `langchain-ollama`
 - `pandas`
 - `gradio`
 
@@ -44,5 +45,3 @@ Key dependencies:
 ```bash
 ollama run llama3
 ```
-
-### **Phase - 3: Make first chain for text analysis**
