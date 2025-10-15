@@ -1,4 +1,4 @@
-# Data Analyst Bot with LangChain + Ollama + Gradio
+# Data Analyst Bot with LangChain + Ollama + Streamlit
 
 The bot will understand your data, clean it, analyze it, and generate reports for you
 
@@ -38,10 +38,24 @@ Key dependencies:
 - `langchain-community`
 - `langchain-ollama`
 - `pandas`
-- `gradio`
+- `streamlit`
 
 3. Run Llama3 locally
 
 ```bash
 ollama run llama3
 ```
+
+4. Run streamlit
+
+```bash
+streamlit run main.py
+```
+
+### **Phase - 2: Ideas to improve project**
+
+- Add Memory so that the agent saves the history
+- Use RAG to make the agent retreive info from internal reports
+- Connect with external API like (Google Sheets, SQL Database)
+- Add smart recommendations
+- All of that can be done using LangChain
